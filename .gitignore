@@ -1,5 +1,7 @@
 target/
-.mvn
+.mvn/
+mvnw.cmd
+mvnw
 
 
 ### STS ###
@@ -26,4 +28,4 @@ nbdist/
 .m
 
 ### Logging ###
-.log
+*.log
