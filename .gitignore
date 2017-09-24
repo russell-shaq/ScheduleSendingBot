@@ -1,5 +1,5 @@
 target/
-!.mvn
+.mvn
 
 
 ### STS ###
@@ -24,3 +24,6 @@ dist/
 nbdist/
 .nb-gradle
 .m
+
+### Logging ###
+.log
