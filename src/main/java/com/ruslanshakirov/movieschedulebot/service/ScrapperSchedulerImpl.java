@@ -22,7 +22,7 @@ public class ScrapperSchedulerImpl implements ScrapperScheduler {
     private List<String> urls = Arrays.asList(KinoKzUrls.MEGA_CINEMA, KinoKzUrls.PLAZA_CINEMA,
             KinoKzUrls.ARSENAL_CINEMA);
 
-    @Scheduled(cron = "0 36 14 * * *", zone = "Asia/Almaty")
+    @Scheduled(cron = "0 00 10 * * *", zone = "Asia/Almaty")
     @Override
     public void scrapeAt10Am() {
         for (String url : urls) {

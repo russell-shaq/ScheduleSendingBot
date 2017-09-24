@@ -9,7 +9,6 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 import javax.annotation.PostConstruct;
 
-@Component
 public class BotInitializer {
     @Autowired
     private MovieScheduleSendingBot movieScheduleSendingBot;
